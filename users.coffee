@@ -4,9 +4,13 @@ inquirer = require 'inquirer'
 Steam = require 'steam'
 
 POSSIBLE_GAMES = [
-  {name: 'CS 1.6', value: '10', checked: true}
-  {name: 'CS Source', value: '240', checked: true}
-  {name: 'CS GO', value: '730', checked: true}
+  {name: 'War Thunder', value: '236390', checked: true}
+  {name: 'ArmA 3', value: '107410'}
+  {name: 'ArmA 2 OA', value: '33930'}
+  {name: 'ArmA 2 OA BETA', value: '219540'}
+  {name: 'CS GO', value: '730'}
+  {name: 'CS 1.6', value: '10'}
+  {name: 'CS Source', value: '240'}
   {name: 'Dota 2', value: '570'}
 ]
 
